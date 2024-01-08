@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_Practica_1_Lenguaje.css">
+    <title>Ivan Ferreiro</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header id="header">
+
+            <h1 style="float: center;" id="textocabecera">IVÁN Ferreiro</h1>
+
+        </header>
+
+        <main>
+            <nav id='menu'>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                <ul>
+                    <li><a href='#ultimodisco'>Inicio</a></li>
+                    <li><a href='musica.html' target="_blank">Musica</a></li>
+                    <li><a class='dropdown-arrow'>Videos</a>
+                        <ul class='sub-menus'>
+                            <li><a href='videosivan.html' target="_blank">Ivan</a></li>
+                            <li><a href='videoscolaboraciones.html' target="_blank">Colaboraciones</a></li>
+                        </ul>
+                    </li>
+                    <li><a href='#conciertos'>Conciertos</a></li>
+                    <li><a href='biografia.html' target="_blank">Biografía</a></li>
+                    <li><a href="#infocomprar">Info/Comprar</a></li>
+                    <li><a href='#contacto'>Contacto</a></li>
+                </ul>
+
+                <div style="float: right; padding-top: 10px;">
+
+                    <a style="padding-right: 50px; float: right;" href="https://www.facebook.com/ivanferreiro.oficial">
+                        <img src="img/facebook_blanco copia.png" alt="logo facebook" width="30px" height="30px">
+                    </a>
+
+                    <a style="padding-right: 30px; float: right;" href="https://www.instagram.com/ivanferreiro/">
+                        <img src="img/instagram_blancocopia.png" alt="Logo instagram" width="30px" height="30px">
+                    </a>
+
+                    <a style="padding-right: 30px; float: right;" href="https://twitter.com/ivanferreiro">
+                        <img src="img/twitter_blanco copia.png" alt="logo twitter" width="30px" height="30px">
+                    </a>
+                </div>
+            </nav>
+
+            <section id="ultimodisco">
+                <div style="  padding-left: 250px; padding-top: 50px;padding-bottom: 60px;">
+                    <img src="img/ivanFerreiro15añosentrecanciones.jpg" width="400px" height="500px"
+                        alt="portada disco 15 años entre canciones" style="border-radius: 12px;">
+                </div>
+
+                <div style="padding-top: 50px; padding-right: 150px; padding-bottom: 60px; ">
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/2GGcgXK8kfGtXDajDFSwvU?utm_source=generator&theme=0"
+                        width="130%" height="500" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+
+            </section>
+
+            <hr>
+            <section id="conciertos">
+                <div class="textconciertos">
+                    <h1 style="color: rgb(68, 68, 68);">Conciertos</h1>
+                </div>
+                <div class="conciertosvertical">
+                    <div class="conciertoshorizontal">
+                        <div class="conciertodia">7 Diciembre 2022</div>
+                        <div class="conciertolugar"> Wizzing Center Madrid</div>
+                        <a href="https://www.elcorteingles.es/entradas/conciertos/todos/indie-alternativo/"
+                            target="_blank">
+                            <button class="conciertocomprar">Comprar</button>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="conciertoshorizontal">
+                        <div class="conciertodia">12 Diciembre 2022 </div>
+                        <div class="conciertolugar">Plaza de Toros de Valencia</div>
+                        <a href="https://www.elcorteingles.es/entradas/conciertos/todos/indie-alternativo/"
+                            target="_blank">
+                            <button class="conciertocomprar"> Comprar</button>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="conciertoshorizontal">
+                        <div class="conciertodia">14 Diciembre 2022</div>
+                        <div class="conciertolugar">Palau San Jordi Barcelona</div>
+                        <a href="https://www.elcorteingles.es/entradas/conciertos/todos/indie-alternativo/"
+                            target="_blank">
+                            <button class="conciertocomprar" type="button"> Comprar</button>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="conciertoshorizontal">
+                        <div class="conciertodia">18 Diciembre 2022</div>
+                        <div class="conciertolugar">Sala Zentral Pamplona</div>
+                        <a href="https://www.elcorteingles.es/entradas/conciertos/todos/indie-alternativo/"
+                            target="_blank">
+                            <button class="conciertocomprar" type="button"> Comprar</button>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="conciertoshorizontal">
+                        <div class="conciertodia">19 Diciembre 2022</div>
+                        <div class="conciertolugar">La lata de Bombillas Zaragoza </div>
+                        <a href="https://www.elcorteingles.es/entradas/conciertos/todos/indie-alternativo/"
+                            target="_blank">
+                            <button class="conciertocomprar" type="button"> Comprar</button>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <hr>
+
+            <section id="infocomprar" class="verticalform">
+
+                <h1 class="textinfo" style="color: rgb(68, 68, 68);">Para recibir información y comprar</h1>
+
+                <form class="formulario" id="formulario" action="mailto:direccion@correo.com" method="post">
+                    <table>
+                        <tr>
+                            <th colspan="2">DATOS</th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <td colspan="2"><br></td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label textarea="nombre">NOMBRE:</label>
+                                <input type="text" name="nombre" id="nombre" size="40" maxlength="35" required></input>
+                            </td>
+                            <td>
+                                <label textarea="apellidos">APELLIDOS</label>
+                                <input type="text" name="apellidos" id="apellidos" size="40" maxlength="40" required></>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label textarea="email">EMAIL:</label>
+                                <input type="text" name="email" id="email" size="43" required>
+                            </td>
+                            <td>
+                                <label textarea="telefono">TELEFONO:</label>
+                                <input type="number" name="telefono" id="telefono" size="13" maxlength="13"></input>
+                                <label textarea="edad">EDAD:</label>
+                                <input type="number" name="edad" id="edad" max="100" min="18" maxlength="3" style="width: 40px;
+                                        height: 15px;" required></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="comunidad">COMUNIDAD:</label>
+                                <select name="comunidad" id="comunidad">
+                                    <option value="MU">Murcia</option>
+                                    <option value="CV">Comunidad Valenciana</option>
+                                    <option value="CA">Cataluña</option>
+                                    <option value="AN">Andalucia</option>
+                                    <option value="AR">Aragón</option>
+                                    <option value="CM">Castilla la Mancha</option>
+                                    <option value="MA">Madrid</option>
+                                    <option value="EX">Extremadura</option>
+                                    <option value="CL">Castilla León</option>
+                                    <option value="NA">Navarra</option>
+                                    <option value="RJ">Rioja</option>
+                                    <option value="AS">Asturias</option>
+                                    <option value="CB">Cantabria</option>
+                                    <option value="PV">Pais Vasco</option>
+                                    <option value="GA">Galicia</option>
+                                    <option value="BA">Baleares</option>
+                                    <option value="IC">Islas Canarias</option>
+                                </select>
+                            </td>
+                            <td>
+                                <label for="sexo">SEXO:</label>
+                                <input type="radio" name="sexo" id="sexoM" value="masculino" /><label
+                                    for="sexoM">Masculino</label>
+                                <input type="radio" name="sexo" id="sexoF" value="femenino" /><label
+                                    for="sexoF">Femenino</label>
+                                <input type="radio" name="sexo" id="sexoO" value="otro" /><label
+                                    for="sexoO">Otro</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <td colspan="2"><br></td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">COMPRAR</th>
+                        </tr>
+                        <tr>
+                            <td>
+                            <td colspan="2"><br></td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="producto">PRODUCTO:</label>
+                                <select name="producto" id="produc">
+                                    <option value="CA">Camiseta</option>
+                                    <option value="CH">Chapa</option>
+                                    <option value="BL">Bolso</option>
+                                    <option value="SD">Sudadera</option>
+                                    <option value="PO">Poster</option>
+                                </select>
+                            </td>
+                            <td>
+                                <label for="color">COLOR:</label>
+                                <input type="checkbox" id="negro" name="negro" value="Negro">
+                                <label for="negro"> Negro</label>
+                                <input type="checkbox" id="blanco" name="blanco" value="Glanco">
+                                <label for="blanco">Blanco</label>
+                                <input type="checkbox" id="gris" name="gris" value="Gris">
+                                <label for="gris"> Gris</label>
+                                <input type="checkbox" id="azul" name="azul" value="Azul">
+                                <label for="gris"> Azul</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label textarea="edad">CANTIDAD:</label>
+                                <input type="number" name="cantidad" id="cantidad" max="100" min="1" maxlength="3"
+                                    style="width: 40px; height: 15px;"></input>
+                            </td>
+                            <td>
+                                <label for="tamanyo">Tamaño:</label>
+                                <select name="tamanyo" id="tamanyo">
+                                    <option value="XS">XS</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <td colspan="2"><br></td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">MÁS INFORMACIÓN</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="rellenomasinfo" id="rellenomasinfo" row="4" cols="90" style="width: 800px;
+                                        height: 100px;"
+                                    placeholder="Escríbenos más sobre la información que quieres recibir o sobre el pedido realizado..."></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><br></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align:center">
+                                <a
+                                    href="mailto:elcorreoquequieres@correo.com?Subject=Más%20información%20id=apellidos"></a>
+                                <input type="submit" name="enviar">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+            <section class="vertical" id="contacto">
+
+                <h1 class="textinfo" style="color: rgb(68, 68, 68);">Management y contratación</h1>
+
+                <div class="contactovertical">
+                    <div class="horizontal">
+                        <a href="mailto:elcorreoquequieres@correo.com?Subject=contratacion%20">
+                            <img src="img/emailgris.png" alt="logo blanco email" width="60px" height="60px">
+                        </a>
+                        <h2 style="padding-top: 15px; padding-left: 20px; color: grey; ">getin@getin.es</h2>
+                    </div>
+                    <div class="horizontal" style=" padding-bottom: 15px; padding-top: 15px;">
+                        <a href="https://web.whatsapp.com/">
+                            <img src="img/whatsapp_gris.png" alt="logo blanco whatsapp" width="60px" height="60px">
+                        </a>
+                        <h2 style="padding-top: 15px; padding-left: 15px; color: grey;">+34 943 316 911</h2>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div>
+                <img src="img/warnermusicb.png" alt="icono sello discográfico Warner España" width="80px" height="30px">
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="https://www.warnermusic.es/" target="_blank">Warner Music Spain</a></li>
+                    <li><a href="https://www.wminewmedia.com/privacy/es/" target="_blank">Politica de Privacidad</a>
+                    </li>
+                    <li><a href="https://www.wminewmedia.com/terms-of-use/es/" target="_blank">Aviso Legal</a> </li>
+                    <li><a href="https://www.warnermusic.es/datos/politica/warner/Hojasdereclamaciones.pdf"
+                            target="_blank"> Hoja de reclamaciones</a></li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
